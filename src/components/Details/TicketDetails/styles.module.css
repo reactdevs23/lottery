@@ -264,6 +264,9 @@
     font-size: 14px;
     width: 70px;
   }
+  .input {
+    font-size: 14px;
+  }
   .iconContainer {
     padding: 8px;
   }
@@ -310,6 +313,9 @@
   .quantity {
     font-size: 12px;
     width: 50px;
+  }
+  .input {
+    font-size: 12px;
   }
   .iconContainer {
     padding: 5px;
