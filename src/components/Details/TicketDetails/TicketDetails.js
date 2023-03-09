@@ -67,7 +67,16 @@ const TicketDetails = () => {
               <BiMinus className={styles.icon} />
             </div>
             <div className={styles.quantity}>
-              <p>{quantity}</p>
+              <input
+                min="1"
+                type="number"
+                inputmode="numeric"
+                className={styles.input}
+                value={quantity}
+                onChange={(e) =>
+                  setQuantity(+e.target.value.replace(/^0+/, ""))
+                }
+              />
             </div>
 
             <div className={styles.iconContainer} onClick={increase}>

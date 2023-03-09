@@ -42,3 +42,11 @@ p {
   width: 95%;
   margin: 0 auto;
 }
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.my-input::-webkit-outer-spin-button,
+.my-input::-webkit-inner-spin-button {
+  display: none;
+}
