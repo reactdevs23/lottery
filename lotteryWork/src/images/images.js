@@ -24,12 +24,6 @@ import user from "./user.svg";
 import oponent from "./oponent.svg";
 import send from "./send.svg";
 import emoji from "./emoji.svg";
-import textIcon from "./createLottery/textIcon.svg";
-import dollar from "./createLottery/dolar.svg";
-import usdt from "./createLottery/usdt.svg";
-import calender from "./createLottery/calender.svg";
-import winner from "./createLottery/winner.svg";
-import galleryIcon from "./createLottery/gallery.svg";
 
 export {
   logo,
@@ -57,10 +51,4 @@ export {
   oponent,
   send,
   emoji,
-  textIcon,
-  dollar,
-  usdt,
-  calender,
-  winner,
-  galleryIcon,
 };

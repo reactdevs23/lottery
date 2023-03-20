@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdOutlineClose } from "react-icons/md";
 import { NavLink } from "react-router-dom";
@@ -40,9 +39,9 @@ const Navbar = () => {
             )}
           </div>
           <div className={styles.buttonContainer}>
-            <Link to="/createLottery" className={styles.button}>
+            <button className={styles.button}>
               <span className={styles.buttonText}>Crate Lottery</span>
-            </Link>
+            </button>
 
             <RxHamburgerMenu
               className={styles.hamburger}

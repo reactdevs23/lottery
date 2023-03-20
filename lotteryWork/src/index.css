@@ -46,10 +46,7 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.my-input::-webkit-outer-spin-button,
+.my-input::-webkit-inner-spin-button {
   display: none;
-}
-input[type="date"]::-webkit-calendar-picker-indicator {
-  filter: invert(1);
 }
